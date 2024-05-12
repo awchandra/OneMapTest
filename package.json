@@ -1,0 +1,14 @@
+{
+  "name": "onemaptest",
+  "version": "1.0.0",
+  "description": "This repo is to create automation test for One Map website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agus Wicaksana",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
