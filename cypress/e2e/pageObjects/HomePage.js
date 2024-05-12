@@ -13,6 +13,14 @@ class HomePage {
         inputQuery.type(queryAddress)
         return this
     }
+
+    clickFirstSuggestion(){
+        return cy.get('.searchSelected > #searchresult_name').click()
+    }
+
+    verifySearchResultDisplayed(){
+        return cy.get('#markerInfoTitle').should('have.text', "WHAT'S HERE SEARCH")
+    }
     
     clickSearchIcon(){
         return cy.get('#search-icon').click()
